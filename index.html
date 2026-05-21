@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minha Coleção UNO</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>🎴 Minha Coleção UNO</h1>
+  <p class="subtitle">Catálogo baseado em <a href="https://www.unovariations.com/every-type-of-uno-card-game-and-spinoff" target="_blank" rel="noopener">unovariations.com</a> — seções <em>UNO Spinoffs</em> e <em>Standard UNO Cards</em>.</p>
+  <div class="stats">
+    <div class="stat"><span id="stat-owned">0</span> possuídos</div>
+    <div class="stat"><span id="stat-total">0</span> total</div>
+    <div class="stat"><span id="stat-pct">0%</span> concluído</div>
+  </div>
+  <div class="progress"><div id="progress-bar"></div></div>
+  <div class="controls">
+    <input type="text" id="search" placeholder="🔍 Buscar por nome ou ano...">
+    <select id="filter-section">
+      <option value="">Todas as seções</option>
+      <option value="Uno Spinoffs">Uno Spinoffs</option>
+      <option value="Standard Uno Cards">Standard Uno Cards</option>
+      <option value="Other Uno Cards">Other Uno Cards</option>
+    </select>
+    <select id="filter-owned">
+      <option value="">Todos</option>
+      <option value="owned">Possuídos</option>
+      <option value="missing">Faltando</option>
+    </select>
+    <button id="export-btn" title="Exportar dados em JSON">⬇ Exportar</button>
+    <button id="import-btn" title="Importar JSON">⬆ Importar</button>
+    <input type="file" id="import-file" accept="application/json" hidden>
+  </div>
+</header>
+<main id="grid"></main>
+<footer>
+  <p>Os dados são salvos localmente no seu navegador (localStorage). Use Exportar/Importar para fazer backup.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

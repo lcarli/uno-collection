@@ -1,0 +1,961 @@
+[
+  {
+    "id": "uno-spinoffs-car-go-uno-2004",
+    "section": "Uno Spinoffs",
+    "name": "Car-Go Uno",
+    "year": "2004",
+    "image": "https://www.unovariations.com/images/Boxes/Car_Go_Uno_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-dos-2017-2018",
+    "section": "Uno Spinoffs",
+    "name": "Dos",
+    "year": "2017, 2018",
+    "image": "https://www.unovariations.com/images/Boxes/Dos_2018_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-dos-second-edition-2022",
+    "section": "Uno Spinoffs",
+    "name": "Dos Second Edition",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/Dos_Second_Edition_Uno_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-dos-burger-king-2022",
+    "section": "Uno Spinoffs",
+    "name": "Dos: Burger King",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/Dos_Burger_King_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-dos-express-2019",
+    "section": "Uno Spinoffs",
+    "name": "Dos Express",
+    "year": "2019",
+    "image": "https://www.unovariations.com/images/Boxes/Dos_Express_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-dos-go-2021",
+    "section": "Uno Spinoffs",
+    "name": "Dos Go!",
+    "year": "2021",
+    "image": "https://www.unovariations.com/images/Boxes/Dos_Go_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-dos-hot-wheels-mcdonald-s-happy-meal-germany-2022",
+    "section": "Uno Spinoffs",
+    "name": "Dos: Hot Wheels (McDonald's Happy Meal) (Germany)",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/Dos_Hot_Wheels_McDonalds_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-dos-splash-2017",
+    "section": "Uno Spinoffs",
+    "name": "Dos Splash",
+    "year": "2017",
+    "image": "https://www.unovariations.com/images/Boxes/Dos_Splash_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-liar-s-uno-2025",
+    "section": "Uno Spinoffs",
+    "name": "Liar's Uno",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Liars_Uno_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-all-wild-2022",
+    "section": "Uno Spinoffs",
+    "name": "Uno All Wild",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_All_Wild_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-all-wild-burger-king-mattel-80th-anniversary-2025",
+    "section": "Uno Spinoffs",
+    "name": "Uno All Wild!: Burger King (Mattel 80th Anniversary)",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_All_Wild_Burger_King_M80_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-all-wild-grogu-2022",
+    "section": "Uno Spinoffs",
+    "name": "Uno All Wild: Grogu",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_All_Wild_Grogu_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-attack-2010",
+    "section": "Uno Spinoffs",
+    "name": "Uno Attack",
+    "year": "2010",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Attack_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-attack-2021",
+    "section": "Uno Spinoffs",
+    "name": "Uno Attack",
+    "year": "2021",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Attack_2021_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-attack-jurassic-world-2017",
+    "section": "Uno Spinoffs",
+    "name": "Uno Attack: Jurassic World",
+    "year": "2017",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Attack_Jurassic_World_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-attack-jurassic-world-dominion-2022",
+    "section": "Uno Spinoffs",
+    "name": "Uno Attack: Jurassic World Dominion",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Attack_Jurassic_World_Dominion_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-attack-mega-hit-2019",
+    "section": "Uno Spinoffs",
+    "name": "Uno Attack: Mega Hit",
+    "year": "2019",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Attack_Mega_Hit_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-blast-2012",
+    "section": "Uno Spinoffs",
+    "name": "Uno Blast",
+    "year": "2012",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Blast_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-flip-transformers-2023",
+    "section": "Uno Spinoffs",
+    "name": "Uno Flip: Transformers",
+    "year": "2023",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Flip_Transformers_Uno_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-golf-2025",
+    "section": "Uno Spinoffs",
+    "name": "Uno Golf",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Golf_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-show-em-no-mercy-expansion-pack-2024",
+    "section": "Uno Spinoffs",
+    "name": "Uno Show 'Em No Mercy Expansion Pack",
+    "year": "2024",
+    "image": "https://www.unovariations.com/images/Boxes/Show_Em_No_Mercy_Expansion_Pack_Uno_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-stacko-refresh-2024",
+    "section": "Uno Spinoffs",
+    "name": "Uno Stacko (Refresh)",
+    "year": "2024",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Stacko_Refresh_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-blokus-shuffle-2021",
+    "section": "Uno Spinoffs",
+    "name": "Uno: Blokus Shuffle",
+    "year": "2021",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Blokus_Shuffle_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-choo-choo-2011",
+    "section": "Uno Spinoffs",
+    "name": "Uno Choo Choo",
+    "year": "2011",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Choo_Choo_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-colors-rule-2016",
+    "section": "Uno Spinoffs",
+    "name": "Uno Colors Rule!",
+    "year": "2016",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Colors_Rule_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-dare-2013",
+    "section": "Uno Spinoffs",
+    "name": "Uno Dare",
+    "year": "2013",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Dare_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-dare-adults-only-2023",
+    "section": "Uno Spinoffs",
+    "name": "Uno Dare: Adults Only",
+    "year": "2023",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Dare_Adults_Only_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-dice-game-1987-1996-2011-2019",
+    "section": "Uno Spinoffs",
+    "name": "Uno Dice Game",
+    "year": "1987,\n\t\t\t\t\t\t1996, 2011, 2019",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Dice_2019_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-dominos-1987-1995",
+    "section": "Uno Spinoffs",
+    "name": "Uno Dominos",
+    "year": "1987,\n\t\t\t\t\t\t1995",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Dominos_1995_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-express-2017",
+    "section": "Uno Spinoffs",
+    "name": "Uno Express",
+    "year": "2017",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Express_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-extreme-uk-2010",
+    "section": "Uno Spinoffs",
+    "name": "Uno Extreme (UK)",
+    "year": "2010",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Extreme_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-eye-eye-spongebob-2008",
+    "section": "Uno Spinoffs",
+    "name": "Uno Eye-Eye, SpongeBob!",
+    "year": "2008",
+    "image": "https://www.unovariations.com/images/Boxes/Eye_Eye_SpongeBob_Uno_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-fast-2013",
+    "section": "Uno Spinoffs",
+    "name": "Uno Fast",
+    "year": "2013",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Fast_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-flash-2007",
+    "section": "Uno Spinoffs",
+    "name": "Uno Flash",
+    "year": "2007",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Flash_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-flex-2022",
+    "section": "Uno Spinoffs",
+    "name": "Uno Flex",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Flex_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-flip-with-uno-guy-2009",
+    "section": "Uno Spinoffs",
+    "name": "Uno Flip (with Uno Guy)",
+    "year": "2009",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Flip_2009_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-flip-2019",
+    "section": "Uno Spinoffs",
+    "name": "Uno Flip",
+    "year": "2019",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Flip_2019_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-flip-burger-king-2022",
+    "section": "Uno Spinoffs",
+    "name": "Uno Flip: Burger King",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Flip_Burger_King_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-flip-burger-king-mattel-80th-anniversary-2025",
+    "section": "Uno Spinoffs",
+    "name": "Uno Flip: Burger King (Mattel 80th Anniversary)",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Flip_Burger_King_M80_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-flip-express-2020",
+    "section": "Uno Spinoffs",
+    "name": "Uno Flip Express",
+    "year": "2020",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Flip_Express_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-flip-marvel-2021",
+    "section": "Uno Spinoffs",
+    "name": "Uno Flip: Marvel",
+    "year": "2021",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Flip_Marvel_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-flip-attack-2024",
+    "section": "Uno Spinoffs",
+    "name": "Uno Flip Attack",
+    "year": "2024",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Flip_Attack_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-flip-splash-2020",
+    "section": "Uno Spinoffs",
+    "name": "Uno Flip Splash",
+    "year": "2020",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Flip_Splash_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-flip-stranger-things-2022",
+    "section": "Uno Spinoffs",
+    "name": "Uno Flip: Stranger Things",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Flip_Stranger_Things_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-flip-transformers-2023",
+    "section": "Uno Spinoffs",
+    "name": "Uno Flip: Transformers",
+    "year": "2023",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Flip_Transformers_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-hearts-1995",
+    "section": "Uno Spinoffs",
+    "name": "Uno Hearts",
+    "year": "1995",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Hearts_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-king-size-uno-1985",
+    "section": "Uno Spinoffs",
+    "name": "King Size Uno",
+    "year": "1985",
+    "image": "https://www.unovariations.com/images/Boxes/King_Size_Uno_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-madness-1995",
+    "section": "Uno Spinoffs",
+    "name": "Uno Madness",
+    "year": "1995",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Madness_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-master-1997",
+    "section": "Uno Spinoffs",
+    "name": "Uno Master",
+    "year": "1997",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Master_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-master-cars-2007",
+    "section": "Uno Spinoffs",
+    "name": "Uno Master: Cars",
+    "year": "2007",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Master_Cars_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-mod-2009",
+    "section": "Uno Spinoffs",
+    "name": "Uno Mod",
+    "year": "2009",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Mod_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-mod-black-case-2009",
+    "section": "Uno Spinoffs",
+    "name": "Uno Mod (Black Case)",
+    "year": "2009",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Mod_Black_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-moo-2008-2014",
+    "section": "Uno Spinoffs",
+    "name": "Uno Moo",
+    "year": "2008, 2014",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Moo_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-party-2022",
+    "section": "Uno Spinoffs",
+    "name": "Uno Party!",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Party_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-power-grab-2012",
+    "section": "Uno Spinoffs",
+    "name": "Uno Power Grab",
+    "year": "2012",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Power_Grab_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-quatro-2023",
+    "section": "Uno Spinoffs",
+    "name": "Uno Quatro",
+    "year": "2023",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Quatro_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-reflex-2010",
+    "section": "Uno Spinoffs",
+    "name": "Uno Reflex",
+    "year": "2010",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Reflex_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-remix-2021",
+    "section": "Uno Spinoffs",
+    "name": "Uno Remix",
+    "year": "2021",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Remix_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-roboto-2010",
+    "section": "Uno Spinoffs",
+    "name": "Uno Roboto",
+    "year": "2010",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Roboto_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-royal-2014",
+    "section": "Uno Spinoffs",
+    "name": "Uno Royal",
+    "year": "2014",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Royal_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-rummy-up-1993",
+    "section": "Uno Spinoffs",
+    "name": "Uno Rummy Up",
+    "year": "1993",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Rummy_Up_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-show-em-no-mercy-uno-2023",
+    "section": "Uno Spinoffs",
+    "name": "Uno Show 'Em No Mercy Uno",
+    "year": "2023",
+    "image": "https://www.unovariations.com/images/Boxes/Show_Em_No_Mercy_Uno_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-show-em-no-mercy-marvel-deadpool-2024",
+    "section": "Uno Spinoffs",
+    "name": "Uno Show 'Em No Mercy: Marvel Deadpool",
+    "year": "2024",
+    "image": "https://www.unovariations.com/images/Boxes/Show_Em_No_Mercy_Deadpool_Uno_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-showdown-2020",
+    "section": "Uno Spinoffs",
+    "name": "Uno Showdown",
+    "year": "2020",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Showdown_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-showdown-supercharged-2020",
+    "section": "Uno Spinoffs",
+    "name": "Uno Showdown Supercharged",
+    "year": "2020",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Showdown_Supercharged_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-slam-uk-1996",
+    "section": "Uno Spinoffs",
+    "name": "Uno Slam (UK)",
+    "year": "1996",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Slam_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-spin-2005",
+    "section": "Uno Spinoffs",
+    "name": "Uno Spin",
+    "year": "2005",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Spin_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-spin-2024",
+    "section": "Uno Spinoffs",
+    "name": "Uno Spin",
+    "year": "2024",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Spin_2024_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-spin-adults-only-2025",
+    "section": "Uno Spinoffs",
+    "name": "Uno Spin: Adults Only",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Spin_Adults_Only_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-spin-hannah-montana-2008",
+    "section": "Uno Spinoffs",
+    "name": "Uno Spin: Hannah Montana",
+    "year": "2008",
+    "image": "https://www.unovariations.com/images/Boxes/Hannah_Montana_Uno_Spin_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-spin-one-piece-japan-2013",
+    "section": "Uno Spinoffs",
+    "name": "Uno Spin: One Piece (Japan)",
+    "year": "2013",
+    "image": "https://www.unovariations.com/images/Boxes/One_Piece_Uno_Spin_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-spin-travel-2009",
+    "section": "Uno Spinoffs",
+    "name": "Uno Spin: Travel",
+    "year": "2009",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Spin_Travel_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-stacko-1994",
+    "section": "Uno Spinoffs",
+    "name": "Uno Stacko",
+    "year": "1994",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Stacko_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-teams-2024",
+    "section": "Uno Spinoffs",
+    "name": "Uno Teams",
+    "year": "2024",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Teams_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-tiki-twist-2014",
+    "section": "Uno Spinoffs",
+    "name": "Uno Tiki Twist",
+    "year": "2014",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Tiki_Twist_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-tippo-2009",
+    "section": "Uno Spinoffs",
+    "name": "Uno Tippo",
+    "year": "2009",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Tippo_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-triple-play-2021",
+    "section": "Uno Spinoffs",
+    "name": "Uno Triple Play",
+    "year": "2021",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Triple_Play_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-triple-play-stealth-2021",
+    "section": "Uno Spinoffs",
+    "name": "Uno Triple Play Stealth",
+    "year": "2021",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Triple_Play_Stealth_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-truth-adults-only-2025",
+    "section": "Uno Spinoffs",
+    "name": "Uno Truth: Adults Only",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Truth_Adults_Only_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-tubo",
+    "section": "Uno Spinoffs",
+    "name": "Uno Tubo",
+    "year": "",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Tubo_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-wild-jackpot-2015",
+    "section": "Uno Spinoffs",
+    "name": "Uno Wild Jackpot",
+    "year": "2015",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Wild_Jackpot_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-wild-jackpot-chrome-2015",
+    "section": "Uno Spinoffs",
+    "name": "Uno Wild Jackpot Chrome",
+    "year": "2015",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Wild_Jackpot_Chrome_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-wild-jackpot-arby-s-kids-meal-2018",
+    "section": "Uno Spinoffs",
+    "name": "Uno Wild Jackpot (Arby's Kids Meal)",
+    "year": "2018",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Wild_Jackpot_Arbys_Kids_Meal_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-wild-tiles-1982",
+    "section": "Uno Spinoffs",
+    "name": "Uno Wild Tiles",
+    "year": "1982",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Wild_Tiles_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-uno-zero",
+    "section": "Uno Spinoffs",
+    "name": "Uno Zero",
+    "year": "",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Zero_Case.jpg"
+  },
+  {
+    "id": "uno-spinoffs-world-s-smallest-dos-2022",
+    "section": "Uno Spinoffs",
+    "name": "World's Smallest Dos",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/Worlds_Smallest_Dos_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-10th-anniversary-edition-uno-1981",
+    "section": "Standard Uno Cards",
+    "name": "10th Anniversary Edition Uno",
+    "year": "1981",
+    "image": "https://www.unovariations.com/images/Boxes/10th_Anniversary_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-30th-anniversary-edition-uno-2001",
+    "section": "Standard Uno Cards",
+    "name": "30th Anniversary Edition Uno",
+    "year": "2001",
+    "image": "https://www.unovariations.com/images/Boxes/30th_Anniversary_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-35th-anniversary-edition-uno-2006",
+    "section": "Standard Uno Cards",
+    "name": "35th Anniversary Edition Uno",
+    "year": "2006",
+    "image": "https://www.unovariations.com/images/Boxes/35th_Anniversary_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-40th-anniversary-edition-uno-2010",
+    "section": "Standard Uno Cards",
+    "name": "40th Anniversary Edition Uno",
+    "year": "2010",
+    "image": "https://www.unovariations.com/images/Boxes/40th_Anniversary_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-50th-anniversary-edition-uno-2021",
+    "section": "Standard Uno Cards",
+    "name": "50th Anniversary Edition Uno",
+    "year": "2021",
+    "image": "https://www.unovariations.com/images/Boxes/50th_Anniversary_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-50th-anniversary-edition-uno-premium-set-2021",
+    "section": "Standard Uno Cards",
+    "name": "50th Anniversary Edition Uno (Premium Set)",
+    "year": "2021",
+    "image": "https://www.unovariations.com/images/Boxes/50th_Anniversary_Uno_Premium_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-50th-anniversary-edition-uno-burger-king-2022",
+    "section": "Standard Uno Cards",
+    "name": "50th Anniversary Edition Uno (Burger King)",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/50th_Anniversary_Uno_Burger_King_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-giant-uno-2015",
+    "section": "Standard Uno Cards",
+    "name": "Giant Uno",
+    "year": "2015",
+    "image": "https://www.unovariations.com/images/Boxes/Giant_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-giant-uno-bts-2019",
+    "section": "Standard Uno Cards",
+    "name": "Giant Uno: BTS",
+    "year": "2019",
+    "image": "https://www.unovariations.com/images/Boxes/Giant_BTS_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-giant-uno-jurassic-world-dominion-2022",
+    "section": "Standard Uno Cards",
+    "name": "Giant Uno: Jurassic World Dominion",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/Giant_Jurassic_World_Dominion_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-giant-uno-nfl-2023",
+    "section": "Standard Uno Cards",
+    "name": "Giant Uno: NFL",
+    "year": "2023",
+    "image": "https://www.unovariations.com/images/Boxes/Giant_NFL_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-keychain-uno-2000",
+    "section": "Standard Uno Cards",
+    "name": "Keychain Uno",
+    "year": "2000",
+    "image": "https://www.unovariations.com/images/Boxes/Keychain_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-mini-uno-2006",
+    "section": "Standard Uno Cards",
+    "name": "Mini Uno",
+    "year": "2006",
+    "image": "https://www.unovariations.com/images/Boxes/Mini_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-nothin-but-paper-uno-2020",
+    "section": "Standard Uno Cards",
+    "name": "Nothin' But Paper Uno",
+    "year": "2020",
+    "image": "https://www.unovariations.com/images/Boxes/Nothin_But_Paper_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-original-uno-deck-1971",
+    "section": "Standard Uno Cards",
+    "name": "Original UNO Deck",
+    "year": "1971",
+    "image": "https://www.unovariations.com/images/Boxes/Original_UNO_Deck_1971_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno",
+    "section": "Standard Uno Cards",
+    "name": "Uno",
+    "year": "",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Classic_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-japan-1981-1981",
+    "section": "Standard Uno Cards",
+    "name": "UNO (Japan, 1981)",
+    "year": "1981",
+    "image": "https://www.unovariations.com/images/Boxes/UNO_Japan_1981_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-add-on-packs-billie-eilish-2025",
+    "section": "Standard Uno Cards",
+    "name": "Uno Add-on Packs: Billie Eilish",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Add_On_Packs_Billie_Eilish_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-add-on-packs-comeback-pack-2025",
+    "section": "Standard Uno Cards",
+    "name": "Uno Add-on Packs: Comeback Pack",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Add_On_Packs_Comeback_Pack_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-add-on-packs-defense-pack-2025",
+    "section": "Standard Uno Cards",
+    "name": "Uno Add-on Packs: Defense Pack",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Add_On_Packs_Defense_Pack_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-add-on-packs-frenemies-pack-2025",
+    "section": "Standard Uno Cards",
+    "name": "Uno Add-on Packs: Frenemies Pack",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Add_On_Packs_Frenemies_Pack_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-add-on-packs-reverse-pack-2025",
+    "section": "Standard Uno Cards",
+    "name": "Uno Add-on Packs: Reverse Pack",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Add_On_Packs_Reverse_Pack_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-add-on-packs-speed-pack-2025",
+    "section": "Standard Uno Cards",
+    "name": "Uno Add-on Packs: Speed Pack",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Add_On_Packs_Speed_Pack_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-add-on-packs-stack-pack-2025",
+    "section": "Standard Uno Cards",
+    "name": "Uno Add-on Packs: Stack Pack",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Add_On_Packs_Stack_Pack_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-add-on-packs-swap-pack-2025",
+    "section": "Standard Uno Cards",
+    "name": "Uno Add-on Packs: Swap Pack",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Add_On_Packs_Swap_Pack_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-add-on-packs-uno-love-france-2025",
+    "section": "Standard Uno Cards",
+    "name": "Uno Add-on Packs: Uno Love (France)",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Add_On_Packs_Uno_Love_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-braille-2019",
+    "section": "Standard Uno Cards",
+    "name": "Uno Braille",
+    "year": "2019",
+    "image": "https://www.unovariations.com/images/Boxes/Braille_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-collector-s-edition-1982",
+    "section": "Standard Uno Cards",
+    "name": "Uno Collector's Edition",
+    "year": "1982",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Collectors_Edition_1982_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-coloradd-2017",
+    "section": "Standard Uno Cards",
+    "name": "Uno ColorADD",
+    "year": "2017",
+    "image": "https://www.unovariations.com/images/Boxes/ColorADD_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-deluxe-1978-1979-1983-1986-1987-1991-1993-2000-2001-2004",
+    "section": "Standard Uno Cards",
+    "name": "Uno Deluxe",
+    "year": "1978,\n\t\t\t\t\t\t1979, 1983, 1986, 1987, 1991, 1993, 2000, 2001, 2004",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Deluxe_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-deluxe-retro-2022",
+    "section": "Standard Uno Cards",
+    "name": "Uno Deluxe Retro",
+    "year": "2022",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Deluxe_Retro_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-deluxe-house-rules-1998",
+    "section": "Standard Uno Cards",
+    "name": "Uno Deluxe: House Rules",
+    "year": "1998",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Deluxe_House_Rules_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-deluxe-50th-anniversary-reissue-2021",
+    "section": "Standard Uno Cards",
+    "name": "Uno Deluxe (50th Anniversary Reissue)",
+    "year": "2021",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Deluxe_50th_Anniversary_Reissue_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-customizable-wild-cards-2015-2018",
+    "section": "Standard Uno Cards",
+    "name": "Uno (Customizable Wild Cards)",
+    "year": "2015, 2018",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_2018_Customizable_Wild_Cards_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-european-type-japan-1987",
+    "section": "Standard Uno Cards",
+    "name": "UNO European Type (Japan)",
+    "year": "1987",
+    "image": "https://www.unovariations.com/images/Boxes/UNO_European_Type_Japan_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-go-2021",
+    "section": "Standard Uno Cards",
+    "name": "Uno Go!",
+    "year": "2021",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Go_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-gold-edition-2025",
+    "section": "Standard Uno Cards",
+    "name": "Uno Gold Edition",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Gold_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-minimalista-2020",
+    "section": "Standard Uno Cards",
+    "name": "Uno Minimalista",
+    "year": "2020",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Minimalista_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-platinum-edition-2023",
+    "section": "Standard Uno Cards",
+    "name": "Uno Platinum Edition",
+    "year": "2023",
+    "image": "https://www.unovariations.com/images/Boxes/Platinum_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-uno-retro-2014",
+    "section": "Standard Uno Cards",
+    "name": "Uno Retro",
+    "year": "2014",
+    "image": "https://www.unovariations.com/images/Boxes/Uno_Retro_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-waddingtons-uno-uk-1989",
+    "section": "Standard Uno Cards",
+    "name": "Waddingtons Uno (UK)",
+    "year": "1989",
+    "image": "https://www.unovariations.com/images/Boxes/Waddingtons_1989_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-world-s-smallest-uno-2018",
+    "section": "Standard Uno Cards",
+    "name": "World's Smallest Uno",
+    "year": "2018",
+    "image": "https://www.unovariations.com/images/Boxes/Worlds_Smallest_Uno_Case.jpg"
+  },
+  {
+    "id": "standard-uno-cards-world-s-smallest-uno-retro-2021",
+    "section": "Standard Uno Cards",
+    "name": "World's Smallest Uno Retro",
+    "year": "2021",
+    "image": "https://www.unovariations.com/images/Boxes/Worlds_Smallest_Uno_Retro_Case.jpg"
+  },
+  {
+    "section": "Other Uno Cards",
+    "name": "Disney 100 Uno",
+    "year": "2023",
+    "image": "https://www.unovariations.com/images/Boxes/Disney_100_Uno_Case.jpg",
+    "id": "other-uno-cards-disney-100-uno-2023"
+  },
+  {
+    "section": "Other Uno Cards",
+    "name": "Mattel 80th Anniversary Uno",
+    "year": "2025",
+    "image": "https://www.unovariations.com/images/Boxes/Mattel_80th_Anniversary_Uno_Case.jpg",
+    "id": "other-uno-cards-mattel-80th-anniversary-uno-2025"
+  },
+  {
+    "section": "Other Uno Cards",
+    "name": "Thank You Heroes Uno",
+    "year": "2020",
+    "image": "https://www.unovariations.com/images/Boxes/Thank_You_Heroes_Uno_Case.jpg",
+    "id": "other-uno-cards-thank-you-heroes-uno-2020"
+  },
+  {
+    "section": "Other Uno Cards",
+    "name": "O'NO 99",
+    "year": "",
+    "image": "",
+    "id": "other-uno-cards-o-no-99"
+  },
+  {
+    "section": "Other Uno Cards",
+    "name": "Uno Prestige",
+    "year": "",
+    "image": "",
+    "id": "other-uno-cards-uno-prestige"
+  },
+  {
+    "section": "Other Uno Cards",
+    "name": "Uno Travel Handheld (MGA-825)",
+    "year": "",
+    "image": "",
+    "id": "other-uno-cards-uno-travel-handheld-mga-825"
+  },
+  {
+    "section": "Other Uno Cards",
+    "name": "Uno Vintage 1978",
+    "year": "1978",
+    "image": "",
+    "id": "other-uno-cards-uno-vintage-1978-1978"
+  },
+  {
+    "section": "Other Uno Cards",
+    "name": "Uno Party (Pink Edition)",
+    "year": "",
+    "image": "",
+    "id": "other-uno-cards-uno-party-pink-edition"
+  }
+]
