@@ -103,7 +103,7 @@ document.getElementById('search').addEventListener('input', render);
 document.getElementById('filter-section').addEventListener('change', render);
 document.getElementById('filter-owned').addEventListener('change', render);
 
-fetch('data.json').then(r => r.json()).then(data => {
+fetch('data.json?v=' + Date.now()).then(r => r.json()).then(data => {
   items = data;
   render();
 });
