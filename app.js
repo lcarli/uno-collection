@@ -1,16 +1,5 @@
-const STORAGE_KEY = 'uno-collection-owned-v1';
 let items = [];
 let owned = new Set();
-
-function loadOwned() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) owned = new Set(JSON.parse(raw));
-  } catch (e) { console.warn(e); }
-}
-function saveOwned() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify([...owned]));
-}
 
 function updateStats() {
   const total = items.length;
@@ -60,14 +49,6 @@ function makeCard(it) {
       <div class="name">${escapeHtml(it.name)}</div>
       <div class="year">${escapeHtml(it.year || '—')}</div>
     </div>`;
-  el.addEventListener('click', () => {
-    if (owned.has(it.id)) owned.delete(it.id); else owned.add(it.id);
-    saveOwned();
-    el.classList.toggle('owned');
-    updateStats();
-    // refresh section counter
-    const hdr = el.previousElementSibling;
-  });
   return el;
 }
 
@@ -79,29 +60,11 @@ document.getElementById('search').addEventListener('input', render);
 document.getElementById('filter-section').addEventListener('change', render);
 document.getElementById('filter-owned').addEventListener('change', render);
 
-document.getElementById('export-btn').addEventListener('click', () => {
-  const blob = new Blob([JSON.stringify([...owned], null, 2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url; a.download = 'uno-collection.json'; a.click();
-  URL.revokeObjectURL(url);
-});
-document.getElementById('import-btn').addEventListener('click', () => document.getElementById('import-file').click());
-document.getElementById('import-file').addEventListener('change', e => {
-  const f = e.target.files[0]; if (!f) return;
-  const r = new FileReader();
-  r.onload = () => {
-    try {
-      const arr = JSON.parse(r.target.result);
-      owned = new Set(arr);
-      saveOwned(); render();
-    } catch (err) { alert('JSON inválido: ' + err.message); }
-  };
-  r.readAsText(f);
-});
-
-fetch('data.json').then(r => r.json()).then(data => {
+Promise.all([
+  fetch('data.json').then(r => r.json()),
+  fetch('uno-collection.json').then(r => r.ok ? r.json() : [])
+]).then(([data, ownedList]) => {
   items = data;
-  loadOwned();
+  owned = new Set(ownedList);
   render();
 });

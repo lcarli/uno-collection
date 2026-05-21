@@ -2,35 +2,56 @@
 
 Site estático para rastrear sua coleção de cartas UNO, baseado nas seções **UNO Spinoffs** e **Standard UNO Cards** do [unovariations.com](https://www.unovariations.com/every-type-of-uno-card-game-and-spinoff).
 
+🌐 **Acesse:** [https://lcarli.github.io/uno-collection/](https://lcarli.github.io/uno-collection/)
+
 - **129 itens** catalogados (86 spinoffs + 43 standard).
-- Clique em qualquer carta para marcar como possuída.
+- Itens possuídos aparecem destacados com o selo **✓ Possuo**.
 - Filtros por seção, status (possuído/faltando) e busca por nome/ano.
-- Dados salvos automaticamente no `localStorage` do navegador.
-- Botões de **Exportar/Importar JSON** para backup.
+- **Tudo hard coded:** catálogo em `data.json` e lista de possuídos em `uno-collection.json`.
+
+## ➕ Como adicionar itens
+
+Tudo é feito **pelo código** (não pela página).
+
+### Adicionar um item novo ao catálogo
+Edite `data.json` e adicione um objeto:
+
+```json
+{
+  "id": "uno-spinoffs-meu-item-2025",
+  "section": "Uno Spinoffs",
+  "name": "Meu Item Novo",
+  "year": "2025",
+  "image": "https://www.unovariations.com/images/Boxes/Meu_Item.jpg"
+}
+```
+
+### Marcar um item como possuído
+Edite `uno-collection.json` e adicione o `id` do item no array:
+
+```json
+[
+  "uno-spinoffs-meu-item-2025",
+  ...
+]
+```
+
+Faça commit e push — o GitHub Pages atualiza automaticamente.
 
 ## 🚀 Publicar no GitHub Pages
 
-```bash
-cd uno-collection-tracker
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/<seu-usuario>/uno-collection-tracker.git
-git push -u origin main
-```
-
-Depois, no repositório do GitHub:
+No repositório do GitHub:
 1. Vá em **Settings → Pages**.
 2. Em **Source**, escolha branch `main` e pasta `/ (root)`.
-3. Salve. Sua página estará em `https://<seu-usuario>.github.io/uno-collection-tracker/`.
+3. Salve. Sua página estará em `https://<seu-usuario>.github.io/uno-collection/`.
 
 ## 📁 Estrutura
 
 - `index.html` — página principal
 - `styles.css` — estilos
-- `app.js` — lógica de tracking
+- `app.js` — lógica de renderização (carrega `data.json` + `uno-collection.json`)
 - `data.json` — catálogo dos itens (gerado a partir de unovariations.com)
+- `uno-collection.json` — lista de IDs dos itens possuídos (hard coded)
 
 ## ℹ️ Créditos das imagens
 
