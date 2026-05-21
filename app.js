@@ -1,5 +1,48 @@
+// Itens possuídos — hard coded. Para marcar um item como possuído,
+// adicione o ID dele a esta lista e faça commit.
+const OWNED_IDS = [
+  "uno-spinoffs-uno-teams-2024",
+  "uno-spinoffs-uno-golf-2025",
+  "uno-spinoffs-car-go-uno-2004",
+  "standard-uno-cards-uno-platinum-edition-2023",
+  "standard-uno-cards-uno-minimalista-2020",
+  "other-uno-cards-uno-vintage-1978-1978",
+  "uno-spinoffs-uno-flip-2019",
+  "other-uno-cards-mattel-80th-anniversary-uno-2025",
+  "standard-uno-cards-uno-deluxe-house-rules-1998",
+  "standard-uno-cards-uno",
+  "uno-spinoffs-uno-all-wild-2022",
+  "uno-spinoffs-uno-flex-2022",
+  "other-uno-cards-o-no-99",
+  "uno-spinoffs-uno-show-em-no-mercy-uno-2023",
+  "other-uno-cards-disney-100-uno-2023",
+  "uno-spinoffs-uno-show-em-no-mercy-expansion-pack-2024",
+  "standard-uno-cards-world-s-smallest-uno-2018",
+  "uno-spinoffs-uno-express-2017",
+  "uno-spinoffs-liar-s-uno-2025",
+  "uno-spinoffs-uno-party-2022",
+  "uno-spinoffs-uno-showdown-2020",
+  "uno-spinoffs-uno-triple-play-2021",
+  "uno-spinoffs-uno-attack-2021",
+  "uno-spinoffs-uno-mod-2009",
+  "standard-uno-cards-50th-anniversary-edition-uno-premium-set-2021",
+  "standard-uno-cards-uno-add-on-packs-billie-eilish-2025",
+  "standard-uno-cards-uno-add-on-packs-reverse-pack-2025",
+  "standard-uno-cards-uno-add-on-packs-speed-pack-2025",
+  "standard-uno-cards-uno-add-on-packs-stack-pack-2025",
+  "standard-uno-cards-uno-add-on-packs-swap-pack-2025",
+  "standard-uno-cards-uno-gold-edition-2025",
+  "standard-uno-cards-world-s-smallest-uno-retro-2021",
+  "other-uno-cards-thank-you-heroes-uno-2020",
+  "other-uno-cards-uno-travel-handheld-mga-825",
+  "other-uno-cards-uno-prestige",
+  "standard-uno-cards-30th-anniversary-edition-uno-2001",
+  "uno-spinoffs-uno-spin-2024",
+  "other-uno-cards-uno-party-pink-edition"
+];
+
 let items = [];
-let owned = new Set();
+const owned = new Set(OWNED_IDS);
 
 function updateStats() {
   const total = items.length;
@@ -60,11 +103,7 @@ document.getElementById('search').addEventListener('input', render);
 document.getElementById('filter-section').addEventListener('change', render);
 document.getElementById('filter-owned').addEventListener('change', render);
 
-Promise.all([
-  fetch('data.json').then(r => r.json()),
-  fetch('uno-collection.json').then(r => r.ok ? r.json() : [])
-]).then(([data, ownedList]) => {
+fetch('data.json').then(r => r.json()).then(data => {
   items = data;
-  owned = new Set(ownedList);
   render();
 });

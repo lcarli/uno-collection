@@ -7,7 +7,7 @@ Site estático para rastrear sua coleção de cartas UNO, baseado nas seções *
 - **129 itens** catalogados (86 spinoffs + 43 standard).
 - Itens possuídos aparecem destacados com o selo **✓ Possuo**.
 - Filtros por seção, status (possuído/faltando) e busca por nome/ano.
-- **Tudo hard coded:** catálogo em `data.json` e lista de possuídos em `uno-collection.json`.
+- **Tudo hard coded:** catálogo em `data.json` e lista de possuídos no array `OWNED_IDS` dentro de `app.js`. A página é somente leitura.
 
 ## ➕ Como adicionar itens
 
@@ -27,13 +27,13 @@ Edite `data.json` e adicione um objeto:
 ```
 
 ### Marcar um item como possuído
-Edite `uno-collection.json` e adicione o `id` do item no array:
+Edite `app.js` e adicione o `id` do item no array `OWNED_IDS`:
 
-```json
-[
+```js
+const OWNED_IDS = [
   "uno-spinoffs-meu-item-2025",
-  ...
-]
+  // ...
+];
 ```
 
 Faça commit e push — o GitHub Pages atualiza automaticamente.
@@ -49,9 +49,8 @@ No repositório do GitHub:
 
 - `index.html` — página principal
 - `styles.css` — estilos
-- `app.js` — lógica de renderização (carrega `data.json` + `uno-collection.json`)
+- `app.js` — lógica de renderização + array `OWNED_IDS` com os itens possuídos (hard coded)
 - `data.json` — catálogo dos itens (gerado a partir de unovariations.com)
-- `uno-collection.json` — lista de IDs dos itens possuídos (hard coded)
 
 ## ℹ️ Créditos das imagens
 
