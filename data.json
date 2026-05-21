@@ -938,13 +938,6 @@
     "id": "other-uno-cards-uno-prestige"
   },
   {
-    "section": "Electronics & Digital",
-    "name": "Uno Travel Handheld (MGA-825)",
-    "year": "",
-    "image": "https://i.ebayimg.com/images/g/JeYAAeSwB3FqA3Nr/s-l1600.jpg",
-    "id": "other-uno-cards-uno-travel-handheld-mga-825"
-  },
-  {
     "section": "Other Uno Cards",
     "name": "Uno Vintage 1978",
     "year": "1978",
@@ -959,73 +952,17 @@
     "id": "other-uno-cards-uno-party-pink-edition"
   },
   {
-    "section": "Electronics & Digital",
-    "name": "UNO Blitzo (Handheld)",
-    "year": "2004",
-    "image": "https://m.media-amazon.com/images/I/61dwxX-JQmL._AC_SL1000_.jpg",
-    "id": "electronics-digital-uno-blitzo-handheld-2004"
-  },
-  {
-    "section": "Electronics & Digital",
-    "name": "UNO H2Overdrive",
-    "year": "2009",
-    "image": "",
-    "id": "electronics-digital-uno-h2overdrive-2009"
+    "section": "Other Uno Cards",
+    "name": "Uno Travel Handheld (MGA-825)",
+    "year": "",
+    "image": "https://i.ebayimg.com/images/g/JeYAAeSwB3FqA3Nr/s-l1600.jpg",
+    "id": "other-uno-cards-uno-travel-handheld-mga-825"
   },
   {
     "section": "Electronics & Digital",
     "name": "UNO Color Screen (Handheld LCD)",
     "year": "2007",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/I/61TAWzE5jML._AC_SL1000_.jpg",
     "id": "electronics-digital-uno-color-screen-handheld-lcd-2007"
-  },
-  {
-    "section": "Electronics & Digital",
-    "name": "UNO Wilderness (Travel Electronic)",
-    "year": "2004",
-    "image": "",
-    "id": "electronics-digital-uno-wilderness-travel-electronic-2004"
-  },
-  {
-    "section": "Electronics & Digital",
-    "name": "UNO Nightmare",
-    "year": "2018",
-    "image": "",
-    "id": "electronics-digital-uno-nightmare-2018"
-  },
-  {
-    "section": "Electronics & Digital",
-    "name": "UNO (Xbox Live Arcade)",
-    "year": "2006",
-    "image": "",
-    "id": "electronics-digital-uno-xbox-live-arcade-2006"
-  },
-  {
-    "section": "Electronics & Digital",
-    "name": "UNO (Ubisoft) - PS4 / Xbox One / Switch / PC",
-    "year": "2016",
-    "image": "https://upload.wikimedia.org/wikipedia/en/9/97/Uno_video_game_cover.jpg",
-    "id": "electronics-digital-uno-ubisoft-ps4-xbox-one-switch-pc-2016"
-  },
-  {
-    "section": "Electronics & Digital",
-    "name": "UNO! Mobile (iOS/Android - Mattel163)",
-    "year": "2018",
-    "image": "",
-    "id": "electronics-digital-uno-mobile-ios-android-mattel163-2018"
-  },
-  {
-    "section": "Electronics & Digital",
-    "name": "UNO Ultimate Edition (Nintendo Switch)",
-    "year": "2024",
-    "image": "",
-    "id": "electronics-digital-uno-ultimate-edition-nintendo-switch-2024"
-  },
-  {
-    "section": "Electronics & Digital",
-    "name": "UNO X (Mobile - Web3)",
-    "year": "2024",
-    "image": "",
-    "id": "electronics-digital-uno-x-mobile-web3-2024"
   }
 ]
